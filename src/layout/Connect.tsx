@@ -15,8 +15,6 @@ import { ETHSCAN_API } from '../utils'
 import { fetcherETHUSD } from '../utils/fetchers'
 
 function getErrorMessage(error: Error) {
-  console.log(error)
-
   if (error instanceof NoEthereumProviderError) {
     return 'No Ethereum browser extension detected, install MetaMask on desktop or visit from a dApp browser on mobile.'
   } else if (error instanceof UnsupportedChainIdError) {
@@ -63,8 +61,6 @@ const Connect: FC = ({ children }) => {
   }, [chainId, account, library, dispatch])
 
   useEffect(() => {
-    console.log(activatingConnector, connector)
-
     if (activatingConnector && activatingConnector === connector) {
       dispatch({ type: ActionType.SET_CONNECTOR, payload: undefined })
     }
