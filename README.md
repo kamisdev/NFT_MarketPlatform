@@ -1,18 +1,12 @@
 # ERC721 NFT Marketplace 
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/silviopaganini/nft-market?style=round)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=round)](https://github.com/prettier/prettier)
-![GitHub](https://img.shields.io/github/license/silviopaganini/nft-market?style=round)
-![](https://img.shields.io/badge/Typescript-💪-blue)
-
-
 Prototype of a NFT Marketplace based on openZeppelin abstract upgradeable ERC721 contracts and Minting/uploading images to IPFS and integration with Opensea.io
 
-## ⚙️ Dependencies
+## Dependencies
 
 This project relies on [NFT Contracts](https://github.com/silviopaganini/nft-contracts) package and [NFT Lambda Service](https://github.com/silviopaganini/nft-market-service) for serving the metadata
 
-## 🔬 Functionalities
+## Functionalities
 
 1. Buy a pre-minted token.
 2. Sell the token that was bought.
@@ -25,17 +19,11 @@ This project relies on [NFT Contracts](https://github.com/silviopaganini/nft-con
 
 <hr />
 
-See it live on [Rinkeby Network](https://nft.s2paganini.com) 
-
-See [my portfolio](https://s2paganini.com/case/ckm0zl44o0w1i0a54lryryi1d) for more details 
-
-<hr />
-
 ## ETH-USD Service
 
 It's been transferred to the [NFT Lambda Service](https://github.com/silviopaganini/nft-market-service) repository.
 
-## ⚡️ Tech-Stack
+## Tech-Stack
 
 - Typescript
 - Solidity
@@ -50,7 +38,7 @@ It's been transferred to the [NFT Lambda Service](https://github.com/silviopagan
 - Lambda AWS
 - serverless
 
-## 🔧 .env file 
+## .env file 
 
 ```
 NODE_ENV=development
@@ -62,7 +50,7 @@ REACT_APP_RPC_URL_4=https://rinkeby.infura.io/v3/INFURA_KEY
 ```
 
 
-## 💰 Sponsor this project
+## Sponsor this project
 
 Donations in ETH or BTC are welcome 
 
